@@ -24,5 +24,5 @@ Optional filepath to your [configuration file](#configuration-file). Default is 
 **RESULTFILEPATH**  
 Optional filepath to your resulting merged and minified CSS file. Must end with `.css`. Default is `style.min.css`.
 
-## Configuratuin File
+## Configuration File
 Create a simple text file `{NAME}.txt`. Then add each of your CSS file's full filepaths to it - one per line.
