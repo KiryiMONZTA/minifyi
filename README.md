@@ -19,10 +19,10 @@ php minify.php {CONFIGFILEPATH} {RESULTFILEPATH}
 
 ### Parameters
 **CONFIGFILEPATH**  
-Optional filepath to your [configuration file](#configuration-file). Default is `config.txt`. Must end with `.txt`
+Optional absolute filepath to your [configuration file](#configuration-file). Default is `config.txt`. Must end with `.txt`
 
 **RESULTFILEPATH**  
-Optional filepath to your resulting merged and minified CSS file. Must end with `.css`. Default is `style.min.css`.
+Optional absolute filepath to your resulting merged and minified CSS file. Must end with `.css`. Default is `style.min.css`.
 
 ## Configuration File
-Create a simple text file `{NAME}.txt`. Then add each of your CSS file's full filepaths to it - one per line. Each file must be plain CSS with file extension `.css`.
+Create a simple text file `{NAME}.txt`. Then add each of your CSS file's full filepaths to it - one per line. Each file must be plain CSS with file extension `.css`. The order of the files is the order the rules get applied.
